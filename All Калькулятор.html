@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <script src="all.js" defer></script>
+</head>
+<body>
+	
+		
+    <h2>Восстановление</h2>
+
+	<p><label><input type="radio" id="one6" name="prim" value="1000" onchange="rfun()">Сборка ПК 1000 рублей</label></p>
+	<p><label><input type="radio" id="one7" name="prim" value="1200" onchange="rfun()"> Установка ОС 1200 рублей</label></p>
+	<p><label><input type="radio" id="one8" name="prim" value="2500" onchange="rfun()"> Установка ПО 2500 рублей</label></p>
+     
+        <h2>Установка</h2>
+
+    <p><label><input type="radio" id="one9"  name="prim1" value="500" onchange="rfun()">Установка драйверов 500 рублей</label></p>
+	<p><label><input type="radio" id="one10"  name="prim1" value="700" onchange="rfun()">Настройка роутера 700 рублей</label></p>
+	<p><label><input type="radio" id="one11" name="prim1" value="750" onchange="rfun()">Чистка компьютера 750 рублей</label></p>
+
+	    <h2>Настройка</h2>
+	
+    <p><label><input type="Checkbox" id="one1" onchange="fun1()">Установка ОС 1000 рублей</label></p>
+    <p><label><input type="Checkbox" id="one2" onchange="fun2()">Установка Драйверов 1500 рублей</label></p>
+    <p><label><input type="Checkbox" id="one3" onchange="fun3()">Установка ПО 2000 рублей</label></p>
+    <p><label><input type="Checkbox" id="one4" onchange="fun4()">Чистка ПК 2500 рублей</label></p>
+
+	 <button id="one" onclick="sum_output()">Общая стоимость</button>
+
+	 <button id="one5" onclick="clean()">Очистить форму</button>
+
+	<!-- <input type="reset" value="Очистить"> -->
+
+	 <p id="myAnchor">Сумма: 0 рублей </p>
+
+
+	
+	  
+</body>
+</html>
